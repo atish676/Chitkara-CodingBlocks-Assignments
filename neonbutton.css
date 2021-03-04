@@ -1,0 +1,30 @@
+body {
+    background-image: url("737474.png");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+    position: absolute;
+    top: 510px;
+    left: 700px;
+    border: 2px solid navy;
+    padding: 15px;
+    outline: none;
+    background-color: transparent;
+    color: navy;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px navy;
+    transition: all 0.4s;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-10%);
+    border: 2px solid magenta;
+    box-shadow: 2px 2px 10px magenta;
+    color: magenta;
+}
